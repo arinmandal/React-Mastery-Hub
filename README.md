@@ -17,7 +17,7 @@ You should know and be comfortable with **all of the following:**
     - UI components (buttons, inputs, cards, etc)
     - Feature components (`SignInForm`, `ProductsFilters`, etc.)
     - Page components (`SignInPage`, `ProductsPage`, etc.)
-    - How to split larger components into smaller ones ([example 1](https://youtu.be/PisA-OPisUY), [example 2](https://youtube.com/shorts/OwXQd6YOySg))
+    - How to split larger components into smaller ones [Code Splitting](https://legacy.reactjs.org/docs/code-splitting.html)
 - **Props**
   - [How to pass data through props](https://react.dev/learn/passing-props-to-a-component)
   - How components re-render when props change (component lifecycle)
