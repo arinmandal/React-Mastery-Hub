@@ -13,7 +13,7 @@ const GitHub = () => {
   // }, []);
   return (
     <>
-      <div className='w-96 bg-slate-400 my-2 mx-auto rounded-md flex gap-2 align-middle'>
+      <div className='w-96 bg-slate-700 my-2 mx-auto rounded-md flex gap-2 align-middle'>
         <img
           className='rounded-full mx-2 my-2'
           src={data.avatar_url}
