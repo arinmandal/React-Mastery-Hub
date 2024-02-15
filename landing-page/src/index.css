@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  /* background-color: red; */
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 70px;
+  /* flex-wrap: wrap; */
+}
+
+ul {
+  /* width: 10%; */
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  text-transform: uppercase;
+  font-size: medium;
+  font-weight: 600;
+}
+.btn {
+  background-color: red;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Main */
+
+main{
+  /* background-color: red; */
+  /* padding: 50px 120px; */
+  min-width: 600px;
+  height:calc(100vh - 72px);
+  display: flex;
+  padding: 22px 150px;
+  margin-top: 20px;
+}
+
+.one h1{
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+.one p{
+  font-size: 16px;
+  max-width: 400px;
+}
+
+.shop-button{
+margin: 5px 0;
+}
+.category{
+background-color: azure;
+color: black;
+border: 1px solid black;
+margin-left: 10px;
+}
+.product-btn{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.two {
+padding: 25px 0px;
+}
+.two img{
+  height: 500px;
+  width: 520px;
+}
