@@ -1,0 +1,51 @@
+.ContactSection {
+  margin: 0 100px;
+  width: 1080px;
+  /* background-color: black; */
+  display: flex;
+}
+.top_button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-bottom: 5px;
+}
+
+.formSection {
+  width: 50%;
+  padding: 15px 20px;
+}
+
+.form_elem {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
+  position: relative;
+}
+.form_elem input {
+  padding: 15px;
+  font-size: 12px;
+  font-weight: 500;
+  height: 40px;
+}
+
+.form_elem textarea {
+  padding: 15px;
+  font-size: 12px;
+  font-weight: 500;
+  max-width: 100%;
+}
+
+.form_elem label {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  background-color: white;
+  padding: 0 5px;
+}
+.contact_img img{
+  max-height: 400px;
+}

@@ -1,0 +1,20 @@
+.contact_section {
+  /* background-color: red; */
+  padding: 30px 100px;
+}
+
+.contact_section h1 {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.contact_section h1::selection {
+  color: rgb(60, 255, 0);
+}
+.contact_section p {
+  font-family: "Roboto";
+  font-weight: 500;
+  max-width: 750px;
+  padding-top: 15px;
+  line-height: 25px;
+}
