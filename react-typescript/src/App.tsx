@@ -1,8 +1,9 @@
 import "./App.css";
+import Greet from "./components/Greet";
 const App = () => {
 	return (
-		<div>
-			<h1>Welcome to React with TypeScript!</h1>
+		<div className='App'>
+			<Greet name='Alex' />
 		</div>
 	);
 };
