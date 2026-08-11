@@ -1,61 +1,61 @@
-# ReactJS Challenges (Mini‑Projects) / React Developer Roadmap (2025)
+# React Machine Coding Challenges & React Developer Roadmap (2026+)
 
-A comprehensive React developer roadmap for 2025, covering essential features, modern tools, and best practices beyond core React.
+A comprehensive React developer roadmap updated for 2026 and beyond, covering essential React 19 features, modern full-stack architectures, and production-grade tools alongside hands-on mini-projects.
 
 ---
 
-## 1. React Fundamentals
+## 1. React 19 Core & Fundamentals
 Make sure you're solid on:
-- JSX & rendering conditionally/looping
-- Components: Function vs Class, lifecycle, splitting & reusing
-- Props & prop‑drilling considerations
-- Event handling
+- JSX, conditional rendering, and component composition
+- Functional components, immutability, and pure rendering
+- React Compiler mental model (automatic memoization replacing manual `useMemo`/`useCallback`)
+- Props flow, component splitting, and custom hooks abstraction
+- Synthetic events & form event handling
 
-## 2. Working With Hooks
+## 2. Modern Hooks & React 19 Primitives
 Master:
-- `useState`, `useEffect` (with cleanup and dependency best practices)
-- `useCallback`, `useMemo`, `useRef`
-- `useContext`
-- Custom Hooks for reusable logic
+- State & Lifecycle: `useState`, `useRef`, `useReducer`, `useEffect` (with proper cleanup & dependency arrays)
+- React 19 Action Hooks: `useActionState`, `useFormStatus`, `useOptimistic`
+- Modern Data/Context: `useContext` and the `use()` API for resolving Promises & Context conditionally
+- Custom Hooks for reusable logic and state orchestration
 
-## 3. Implementing Features
+## 3. Production Architecture & Features
 Get hands-on with:
-- Client‑side routing & lazy loading (`react-router`, code splitting)
-- Data fetching and caching (React Query / TanStack Query, SWR)
-- Form handling & validation (`react-hook-form`, Formik, Zod for schema/types)
-- State management tools (`Redux Toolkit`, `Zustand`, `Jotai`, `Recoil`)
-- Modern auth integrations (NextAuth, Clerk, Supabase, Firebase)
-- Accessibility standards (ARIA roles, keyboard nav, `react-aria`)
-- Testing (Jest, React Testing Library, Cypress, Playwright)
+- Client-side & Type-safe Routing: `TanStack Router`, `React Router v7`
+- Data Fetching & Server State: `TanStack Query` (v5+), `SWR`
+- Forms & Validation: `react-hook-form` paired with `Zord` or `Valibot` schema validation
+- State Management: `Zustand` (lean/modern client state), `Redux Toolkit` (complex enterprise flows), `Jotai`
+- Modern Auth Integrations: `Clerk`, `Supabase Auth`, `Kinde`, `Auth.js`
+- Accessibility Standards: ARIA roles, WCAG guidelines, keyboard navigation, `React Aria`
+- Testing & Quality: `Vitest`, `React Testing Library`, `Playwright` for E2E testing
 
-## 4. Styling Solutions
+## 4. Modern Styling Solutions
 Explore:
-- Utility-first: Tailwind CSS
-- CSS-in-JS: Styled Components, Emotion
-- Component libraries: Chakra UI, Material UI, Ant Design
-- CSS Modules for component scoping
+- Utility-first & Zero-runtime: `Tailwind CSS v4`, `Shadcn UI` (Copy-paste component architecture), `Radix Primitives`
+- Micro-interactions & Motion: `Framer Motion`, `GSAP`, `Lenis`
+- Scoped Styling: CSS Modules, Tailwind UI
 
-## 5. React Frameworks
+## 5. React Frameworks & Build Tools
 Learn at least one:
-- **Vite** for lightweight dev builds
-- **Next.js v14+**: App Router, Server Components, Server Actions
-- **Remix**
-- **Astro**, **Gatsby**, **Qwik** (if you're looking at multi-framework)
+- **Vite**: De-facto industry standard for SPAs & rapid development
+- **Next.js (App Router)**: Server Components (RSC), Server Actions, Streaming, Parallel & Intercepting Routes
+- **Remix / React Router v7**: Full-stack web application framework
+- **Astro**: Content-first sites using multi-framework Islands architecture
 
-## 6. Beyond React
-- Collaborating: Component reviews, branching workflows
-- Code quality: Linting, Prettier, code reviews
-- CI/CD: GitHub Actions or equivalent pipelines
-- Observability: Logging, performance monitoring (e.g., Vitals, Sentry)
-- Soft skills: Communication, learning mindset, networking, contributing to open source
+## 6. Beyond Core React (AI & Engineering Ops)
+- AI UI Engineering: Streaming LLM responses, `@ai-sdk/react`, generative UI workflows
+- Code Quality & Safety: TypeScript (strict mode), ESLint flat configs, Prettier
+- CI/CD & Deployments: GitHub Actions, Vercel, Netlify
+- Observability: Web Vitals monitoring, `Sentry`, error boundary strategies
 
 ---
 
-## 🚀 Projects in this Repo
-Explore demos like:
-- Accordion, Flashcards, Forms
-- API integration, context management, theme switcher
-- Password generator, router example, and more!
+## 🚀 Projects & Machine Coding Demos
+Explore practical implementations in this repo:
+- Accordion, Flashcards, Text Expander
+- Dynamic Profile Card, Date Counter, Password Generator
+- Context API Form integration, Light/Dark Theme Switcher
+- API Integration patterns, Client-side Routing, TypeScript UI components
 
 ---
 
@@ -65,4 +65,5 @@ Explore demos like:
    git clone https://github.com/arinmandal/React-Mastery-Hub.git
    cd React-Mastery-Hub
    npm install
-   npm start
+   npm run dev
+   
