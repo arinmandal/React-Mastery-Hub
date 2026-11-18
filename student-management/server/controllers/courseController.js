@@ -89,3 +89,23 @@ exports.deleteCourse = async (req, res) => {
         res.status(500).json({ message: "Failed to delete course" });
     }
 };
+
+
+// Get single course by ID
+exports.getCourseById = async (req, res) => {
+    try {
+        const { id } = req.params;
+        const [courses] = await db.execute(
+            "SELECT * FROM courses WHERE id = ?",
+            [id]
+        );
+
+        if (courses.length === 0) {
+            return res.status(404).json({ message: "Course not found" });
+        }
+
+        res.json(courses[0]);
+    } catch (error) {
+        res.status(500).json({ message: "Failed to fetch course" });
+    }
+};
